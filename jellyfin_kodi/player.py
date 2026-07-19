@@ -208,7 +208,7 @@ class Player(xbmc.Player):
                 self.setAudioStream(audio - 1)
 
             if subtitle is None or subtitle == -1:
-                self.showSubtitles(False)
+                # self.showSubtitles(False)
 
                 return
 
